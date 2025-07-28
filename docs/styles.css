@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background-color: #002a42;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+  transition: background 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background: rgba(255, 178, 2, 0.1);
+  color: #f2b202;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+main h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #002a42;
+  padding-bottom: 0.25rem;
+}
+
+section {
+  background: #ffffff;
+  padding-bottom: 1rem;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+section p,
+section ul,
+section ol {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+section ul li,
+section ol li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+table thead tr {
+  background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+h2 {
+  color: #002a42;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  color: #f2b202;
+  margin-top: 1rem;
+}
+
+a {
+  color: #002a42;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f2b202;
+}
+
+code {
+  background: #f2f2f2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+dl {
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+dt {
+  margin-top: 1rem;
+  font-weight: bold;
+  cursor: default;
+  position: relative;
+  padding-right: 20px;
+}
+
+dt::after {
+  content: "";
+}
+
+dd {
+  margin-left: 1rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
