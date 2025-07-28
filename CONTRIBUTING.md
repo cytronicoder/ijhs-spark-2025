@@ -19,9 +19,9 @@ Thanks for helping bring our Spark projects to life! This guide will walk you th
 
 ## 3. Working the Board
 
-- Move cards from **Backlog** → **To Do** when you commit to them
+- Move cards from **Backlog** → **Ready** when you commit to them
 - Once you start, drag to **In Progress**
-- When you finish the work, drag to **Review**, add comments or attach files
+- When you finish the work, drag to **In Review**, add comments or attach files
 - After sign-off, drag to **Done**
 
 > [!TIP]

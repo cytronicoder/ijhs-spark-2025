@@ -17,7 +17,7 @@
 | Column      | What it means                        |
 | ----------- | ------------------------------------ |
 | Backlog     | Potential tasks, not yet prioritized |
-| To Do       | Committed for this sprint/month      |
+| Ready       | Committed for this sprint/month      |
 | In Progress | Actively being worked on             |
-| Review      | Awaiting feedback                    |
+| In Review   | Awaiting feedback                    |
 | Done        | Completed                            |
